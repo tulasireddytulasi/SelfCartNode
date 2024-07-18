@@ -25,7 +25,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/itemsList", function (req, res) {
-  res.send(dummyData);
+  res.send(productData);
 });
 
 // To run in browser : http://localhost:8000/
