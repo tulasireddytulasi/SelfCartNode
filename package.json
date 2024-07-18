@@ -11,11 +11,11 @@
   },
   "name": "maya-stories-node",
   "version": "1.0.0",
-  "description": "Maya Stories",
-  "main": "maya-story-server.js",
+  "description": "Self Cart",
+  "main": "self-cart-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node -r dotenv/config maya-story-server.js dotenv_config_path=./environment/.env.dev"
+    "dev": "node -r dotenv/config self-cart-server.js dotenv_config_path=./environment/.env.dev"
   },
   "author": "K. Tulasi Reddy",
   "license": "ISC"
