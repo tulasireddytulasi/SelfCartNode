@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "mongoose": "^8.0.2",
+    "uuidv4": "^6.2.13"
+  },
+  "name": "maya-stories-node",
+  "version": "1.0.0",
+  "description": "Maya Stories",
+  "main": "maya-story-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r dotenv/config maya-story-server.js dotenv_config_path=./environment/.env.dev"
+  },
+  "author": "K. Tulasi Reddy",
+  "license": "ISC"
+}
