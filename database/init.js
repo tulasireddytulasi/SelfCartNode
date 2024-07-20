@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI = "mongodb://localhost:27017";
+const MONGO_URI = "mongodb://localhost:27017/self_cart";
 // process.env.MONGO_URI;
 
 // mongodb://localhost:27017
